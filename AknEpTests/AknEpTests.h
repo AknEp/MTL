@@ -2,8 +2,8 @@
 //  AknEpTests.h
 //  AknEpTests
 //
-//  Created by 鈴木 聡史 on 12/02/20.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by AknEp on 12/02/20.
+//  Copyright (c) 2012年 AknEp. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>

@@ -2,8 +2,8 @@
 //  AKNEP_AppDelegate.m
 //  AknEp
 //
-//  Created by 鈴木 聡史 on 12/02/20.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by AknEp on 12/02/20.
+//  Copyright (c) 2012年 AknEp. All rights reserved.
 //
 
 #import "AKNEP_AppDelegate.h"

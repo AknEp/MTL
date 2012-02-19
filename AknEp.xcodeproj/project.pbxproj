@@ -20,6 +20,11 @@
 		752DEB4414F17BC0009B70C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2514F17BC0009B70C4 /* Foundation.framework */; };
 		752DEB4C14F17BC0009B70C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB4A14F17BC0009B70C4 /* InfoPlist.strings */; };
 		752DEB4F14F17BC0009B70C4 /* AknEpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB4E14F17BC0009B70C4 /* AknEpTests.m */; };
+		752DEB5A14F17EDD009B70C4 /* Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB5914F17EDD009B70C4 /* Alpha.m */; };
+		752DEB5D14F18335009B70C4 /* Beta.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB5C14F18335009B70C4 /* Beta.m */; };
+		752DEB6014F18851009B70C4 /* ReleaseTracked.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB5F14F18851009B70C4 /* ReleaseTracked.m */; };
+		752DEB6314F198F3009B70C4 /* Gamma.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB6214F198F3009B70C4 /* Gamma.m */; };
+		752DEB6614F1A7D3009B70C4 /* Alpha+Delta.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB6514F1A7D3009B70C4 /* Alpha+Delta.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +42,32 @@
 		752DEB2314F17BC0009B70C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		752DEB2514F17BC0009B70C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		752DEB2714F17BC0009B70C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		752DEB2B14F17BC0009B70C4 /* AknEp-Info.plist */ = {isa = PBXFileReference; path = "AknEp-Info.plist"; sourceTree = "<group>"; };
+		752DEB2B14F17BC0009B70C4 /* AknEp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AknEp-Info.plist"; sourceTree = "<group>"; };
 		752DEB2D14F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		752DEB2F14F17BC0009B70C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		752DEB3114F17BC0009B70C4 /* AknEp-Prefix.pch */ = {isa = PBXFileReference; path = "AknEp-Prefix.pch"; sourceTree = "<group>"; };
-		752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */ = {isa = PBXFileReference; path = AKNEP_AppDelegate.h; sourceTree = "<group>"; };
+		752DEB3114F17BC0009B70C4 /* AknEp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AknEp-Prefix.pch"; sourceTree = "<group>"; };
+		752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKNEP_AppDelegate.h; sourceTree = "<group>"; };
 		752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNEP_AppDelegate.m; sourceTree = "<group>"; };
 		752DEB3614F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */ = {isa = PBXFileReference; path = AKNEP_ViewController.h; sourceTree = "<group>"; };
+		752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKNEP_ViewController.h; sourceTree = "<group>"; };
 		752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNEP_ViewController.m; sourceTree = "<group>"; };
 		752DEB4014F17BC0009B70C4 /* AknEpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AknEpTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752DEB4114F17BC0009B70C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		752DEB4914F17BC0009B70C4 /* AknEpTests-Info.plist */ = {isa = PBXFileReference; path = "AknEpTests-Info.plist"; sourceTree = "<group>"; };
+		752DEB4914F17BC0009B70C4 /* AknEpTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AknEpTests-Info.plist"; sourceTree = "<group>"; };
 		752DEB4B14F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		752DEB4D14F17BC0009B70C4 /* AknEpTests.h */ = {isa = PBXFileReference; path = AknEpTests.h; sourceTree = "<group>"; };
+		752DEB4D14F17BC0009B70C4 /* AknEpTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AknEpTests.h; sourceTree = "<group>"; };
 		752DEB4E14F17BC0009B70C4 /* AknEpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AknEpTests.m; sourceTree = "<group>"; };
+		752DEB5814F17EDD009B70C4 /* Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alpha.h; sourceTree = "<group>"; };
+		752DEB5914F17EDD009B70C4 /* Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alpha.m; sourceTree = "<group>"; };
+		752DEB5B14F18335009B70C4 /* Beta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beta.h; sourceTree = "<group>"; };
+		752DEB5C14F18335009B70C4 /* Beta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beta.m; sourceTree = "<group>"; };
+		752DEB5E14F18851009B70C4 /* ReleaseTracked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseTracked.h; sourceTree = "<group>"; };
+		752DEB5F14F18851009B70C4 /* ReleaseTracked.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseTracked.m; sourceTree = "<group>"; };
+		752DEB6114F198F3009B70C4 /* Gamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gamma.h; sourceTree = "<group>"; };
+		752DEB6214F198F3009B70C4 /* Gamma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gamma.m; sourceTree = "<group>"; };
+		752DEB6414F1A7D3009B70C4 /* Alpha+Delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alpha+Delta.h"; sourceTree = "<group>"; };
+		752DEB6514F1A7D3009B70C4 /* Alpha+Delta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Alpha+Delta.m"; sourceTree = "<group>"; };
+		752DEB6714F1A978009B70C4 /* EpsilonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpsilonDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +129,21 @@
 			children = (
 				752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */,
 				752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */,
+				752DEB5814F17EDD009B70C4 /* Alpha.h */,
+				752DEB5914F17EDD009B70C4 /* Alpha.m */,
 				752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */,
 				752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */,
 				752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */,
+				752DEB6714F1A978009B70C4 /* EpsilonDelegate.h */,
+				752DEB5E14F18851009B70C4 /* ReleaseTracked.h */,
+				752DEB5F14F18851009B70C4 /* ReleaseTracked.m */,
 				752DEB2A14F17BC0009B70C4 /* Supporting Files */,
+				752DEB5B14F18335009B70C4 /* Beta.h */,
+				752DEB5C14F18335009B70C4 /* Beta.m */,
+				752DEB6114F198F3009B70C4 /* Gamma.h */,
+				752DEB6214F198F3009B70C4 /* Gamma.m */,
+				752DEB6414F1A7D3009B70C4 /* Alpha+Delta.h */,
+				752DEB6514F1A7D3009B70C4 /* Alpha+Delta.m */,
 			);
 			path = AknEp;
 			sourceTree = "<group>";
@@ -260,6 +287,11 @@
 				752DEB3014F17BC0009B70C4 /* main.m in Sources */,
 				752DEB3414F17BC0009B70C4 /* AKNEP_AppDelegate.m in Sources */,
 				752DEB3A14F17BC0009B70C4 /* AKNEP_ViewController.m in Sources */,
+				752DEB5A14F17EDD009B70C4 /* Alpha.m in Sources */,
+				752DEB5D14F18335009B70C4 /* Beta.m in Sources */,
+				752DEB6014F18851009B70C4 /* ReleaseTracked.m in Sources */,
+				752DEB6314F198F3009B70C4 /* Gamma.m in Sources */,
+				752DEB6614F1A7D3009B70C4 /* Alpha+Delta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

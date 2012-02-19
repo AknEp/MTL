@@ -1,13 +1,17 @@
 //
-//  AKNEP_ViewController.h
+//  Beta.m
 //  AknEp
 //
 //  Created by AknEp on 12/02/20.
 //  Copyright (c) 2012年 AknEp. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Beta.h"
+#import "ReleaseTracked.h"
 
-@interface AKNEP_ViewController : UIViewController
+@implementation Beta
+
+@synthesize strong;
+@synthesize weak;
 
 @end
