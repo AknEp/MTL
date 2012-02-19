@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752DEB2414F17BC0009B70C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2314F17BC0009B70C4 /* UIKit.framework */; };
+		752DEB2614F17BC0009B70C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2514F17BC0009B70C4 /* Foundation.framework */; };
+		752DEB2814F17BC0009B70C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2714F17BC0009B70C4 /* CoreGraphics.framework */; };
+		752DEB2E14F17BC0009B70C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB2C14F17BC0009B70C4 /* InfoPlist.strings */; };
+		752DEB3014F17BC0009B70C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB2F14F17BC0009B70C4 /* main.m */; };
+		752DEB3414F17BC0009B70C4 /* AKNEP_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */; };
+		752DEB3714F17BC0009B70C4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */; };
+		752DEB3A14F17BC0009B70C4 /* AKNEP_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */; };
+		752DEB4214F17BC0009B70C4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB4114F17BC0009B70C4 /* SenTestingKit.framework */; };
+		752DEB4314F17BC0009B70C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2314F17BC0009B70C4 /* UIKit.framework */; };
+		752DEB4414F17BC0009B70C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752DEB2514F17BC0009B70C4 /* Foundation.framework */; };
+		752DEB4C14F17BC0009B70C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 752DEB4A14F17BC0009B70C4 /* InfoPlist.strings */; };
+		752DEB4F14F17BC0009B70C4 /* AknEpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 752DEB4E14F17BC0009B70C4 /* AknEpTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		752DEB4514F17BC0009B70C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 752DEB1614F17BC0009B70C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 752DEB1E14F17BC0009B70C4;
+			remoteInfo = AknEp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752DEB1F14F17BC0009B70C4 /* AknEp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AknEp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		752DEB2314F17BC0009B70C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		752DEB2514F17BC0009B70C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		752DEB2714F17BC0009B70C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		752DEB2B14F17BC0009B70C4 /* AknEp-Info.plist */ = {isa = PBXFileReference; path = "AknEp-Info.plist"; sourceTree = "<group>"; };
+		752DEB2D14F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		752DEB2F14F17BC0009B70C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		752DEB3114F17BC0009B70C4 /* AknEp-Prefix.pch */ = {isa = PBXFileReference; path = "AknEp-Prefix.pch"; sourceTree = "<group>"; };
+		752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */ = {isa = PBXFileReference; path = AKNEP_AppDelegate.h; sourceTree = "<group>"; };
+		752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNEP_AppDelegate.m; sourceTree = "<group>"; };
+		752DEB3614F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */ = {isa = PBXFileReference; path = AKNEP_ViewController.h; sourceTree = "<group>"; };
+		752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKNEP_ViewController.m; sourceTree = "<group>"; };
+		752DEB4014F17BC0009B70C4 /* AknEpTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AknEpTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		752DEB4114F17BC0009B70C4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		752DEB4914F17BC0009B70C4 /* AknEpTests-Info.plist */ = {isa = PBXFileReference; path = "AknEpTests-Info.plist"; sourceTree = "<group>"; };
+		752DEB4B14F17BC0009B70C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		752DEB4D14F17BC0009B70C4 /* AknEpTests.h */ = {isa = PBXFileReference; path = AknEpTests.h; sourceTree = "<group>"; };
+		752DEB4E14F17BC0009B70C4 /* AknEpTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AknEpTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		752DEB1C14F17BC0009B70C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB2414F17BC0009B70C4 /* UIKit.framework in Frameworks */,
+				752DEB2614F17BC0009B70C4 /* Foundation.framework in Frameworks */,
+				752DEB2814F17BC0009B70C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752DEB3C14F17BC0009B70C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB4214F17BC0009B70C4 /* SenTestingKit.framework in Frameworks */,
+				752DEB4314F17BC0009B70C4 /* UIKit.framework in Frameworks */,
+				752DEB4414F17BC0009B70C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752DEB1414F17BC0009B70C4 = {
+			isa = PBXGroup;
+			children = (
+				752DEB2914F17BC0009B70C4 /* AknEp */,
+				752DEB4714F17BC0009B70C4 /* AknEpTests */,
+				752DEB2214F17BC0009B70C4 /* Frameworks */,
+				752DEB2014F17BC0009B70C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		752DEB2014F17BC0009B70C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB1F14F17BC0009B70C4 /* AknEp.app */,
+				752DEB4014F17BC0009B70C4 /* AknEpTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		752DEB2214F17BC0009B70C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB2314F17BC0009B70C4 /* UIKit.framework */,
+				752DEB2514F17BC0009B70C4 /* Foundation.framework */,
+				752DEB2714F17BC0009B70C4 /* CoreGraphics.framework */,
+				752DEB4114F17BC0009B70C4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		752DEB2914F17BC0009B70C4 /* AknEp */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */,
+				752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */,
+				752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */,
+				752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */,
+				752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */,
+				752DEB2A14F17BC0009B70C4 /* Supporting Files */,
+			);
+			path = AknEp;
+			sourceTree = "<group>";
+		};
+		752DEB2A14F17BC0009B70C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB2B14F17BC0009B70C4 /* AknEp-Info.plist */,
+				752DEB2C14F17BC0009B70C4 /* InfoPlist.strings */,
+				752DEB2F14F17BC0009B70C4 /* main.m */,
+				752DEB3114F17BC0009B70C4 /* AknEp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		752DEB4714F17BC0009B70C4 /* AknEpTests */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB4D14F17BC0009B70C4 /* AknEpTests.h */,
+				752DEB4E14F17BC0009B70C4 /* AknEpTests.m */,
+				752DEB4814F17BC0009B70C4 /* Supporting Files */,
+			);
+			path = AknEpTests;
+			sourceTree = "<group>";
+		};
+		752DEB4814F17BC0009B70C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				752DEB4914F17BC0009B70C4 /* AknEpTests-Info.plist */,
+				752DEB4A14F17BC0009B70C4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		752DEB1E14F17BC0009B70C4 /* AknEp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752DEB5214F17BC0009B70C4 /* Build configuration list for PBXNativeTarget "AknEp" */;
+			buildPhases = (
+				752DEB1B14F17BC0009B70C4 /* Sources */,
+				752DEB1C14F17BC0009B70C4 /* Frameworks */,
+				752DEB1D14F17BC0009B70C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AknEp;
+			productName = AknEp;
+			productReference = 752DEB1F14F17BC0009B70C4 /* AknEp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		752DEB3F14F17BC0009B70C4 /* AknEpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 752DEB5514F17BC0009B70C4 /* Build configuration list for PBXNativeTarget "AknEpTests" */;
+			buildPhases = (
+				752DEB3B14F17BC0009B70C4 /* Sources */,
+				752DEB3C14F17BC0009B70C4 /* Frameworks */,
+				752DEB3D14F17BC0009B70C4 /* Resources */,
+				752DEB3E14F17BC0009B70C4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				752DEB4614F17BC0009B70C4 /* PBXTargetDependency */,
+			);
+			name = AknEpTests;
+			productName = AknEpTests;
+			productReference = 752DEB4014F17BC0009B70C4 /* AknEpTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		752DEB1614F17BC0009B70C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 752DEB1914F17BC0009B70C4 /* Build configuration list for PBXProject "AknEp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 752DEB1414F17BC0009B70C4;
+			productRefGroup = 752DEB2014F17BC0009B70C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				752DEB1E14F17BC0009B70C4 /* AknEp */,
+				752DEB3F14F17BC0009B70C4 /* AknEpTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		752DEB1D14F17BC0009B70C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB2E14F17BC0009B70C4 /* InfoPlist.strings in Resources */,
+				752DEB3714F17BC0009B70C4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752DEB3D14F17BC0009B70C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB4C14F17BC0009B70C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		752DEB3E14F17BC0009B70C4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		752DEB1B14F17BC0009B70C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB3014F17BC0009B70C4 /* main.m in Sources */,
+				752DEB3414F17BC0009B70C4 /* AKNEP_AppDelegate.m in Sources */,
+				752DEB3A14F17BC0009B70C4 /* AKNEP_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		752DEB3B14F17BC0009B70C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752DEB4F14F17BC0009B70C4 /* AknEpTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		752DEB4614F17BC0009B70C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 752DEB1E14F17BC0009B70C4 /* AknEp */;
+			targetProxy = 752DEB4514F17BC0009B70C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		752DEB2C14F17BC0009B70C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752DEB2D14F17BC0009B70C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752DEB3614F17BC0009B70C4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		752DEB4A14F17BC0009B70C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				752DEB4B14F17BC0009B70C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		752DEB5014F17BC0009B70C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		752DEB5114F17BC0009B70C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		752DEB5314F17BC0009B70C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AknEp/AknEp-Prefix.pch";
+				INFOPLIST_FILE = "AknEp/AknEp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		752DEB5414F17BC0009B70C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AknEp/AknEp-Prefix.pch";
+				INFOPLIST_FILE = "AknEp/AknEp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		752DEB5614F17BC0009B70C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AknEp.app/AknEp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AknEp/AknEp-Prefix.pch";
+				INFOPLIST_FILE = "AknEpTests/AknEpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		752DEB5714F17BC0009B70C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AknEp.app/AknEp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AknEp/AknEp-Prefix.pch";
+				INFOPLIST_FILE = "AknEpTests/AknEpTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		752DEB1914F17BC0009B70C4 /* Build configuration list for PBXProject "AknEp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752DEB5014F17BC0009B70C4 /* Debug */,
+				752DEB5114F17BC0009B70C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		752DEB5214F17BC0009B70C4 /* Build configuration list for PBXNativeTarget "AknEp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752DEB5314F17BC0009B70C4 /* Debug */,
+				752DEB5414F17BC0009B70C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		752DEB5514F17BC0009B70C4 /* Build configuration list for PBXNativeTarget "AknEpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				752DEB5614F17BC0009B70C4 /* Debug */,
+				752DEB5714F17BC0009B70C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 752DEB1614F17BC0009B70C4 /* Project object */;
+}
