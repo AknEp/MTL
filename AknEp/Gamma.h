@@ -13,7 +13,7 @@
 
 @property NSInteger number;
 @property (readonly) NSInteger myConstant;
-@property ReleaseTracked* strong;
-@property (weak)ReleaseTracked* weak;
+@property (strong) ReleaseTracked* strong;
+@property (weak) ReleaseTracked* weak;
 
 @end

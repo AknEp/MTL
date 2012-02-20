@@ -42,7 +42,7 @@ static __weak ReleaseTracked* weak = nil;
     number = aNumber;
 }
 
-// 最近どうも、こうするしかない気がしてるんですが、どうなんでしょうね…？ 場合によってはクラスメソッドかな。
+// クラスを跨ぐ場合はこうするしかない気がしてるんですが、どうなんでしょうね…？ クラスメソッドの方が良いかなぁ
 - (NSInteger)myConstant
 {
     return myConstant;

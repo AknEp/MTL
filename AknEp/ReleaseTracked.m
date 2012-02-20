@@ -22,6 +22,7 @@
 - (void) dealloc
 {
     NSLog(@"delloc: %@" ,name);
+    // ARC だとここで super のdealloc を呼ばなくて良いのが地味に嬉しいですね。
 }
 
 @end

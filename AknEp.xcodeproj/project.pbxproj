@@ -127,23 +127,23 @@
 		752DEB2914F17BC0009B70C4 /* AknEp */ = {
 			isa = PBXGroup;
 			children = (
-				752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */,
-				752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */,
 				752DEB5814F17EDD009B70C4 /* Alpha.h */,
 				752DEB5914F17EDD009B70C4 /* Alpha.m */,
-				752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */,
-				752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */,
-				752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */,
-				752DEB6714F1A978009B70C4 /* EpsilonDelegate.h */,
-				752DEB5E14F18851009B70C4 /* ReleaseTracked.h */,
-				752DEB5F14F18851009B70C4 /* ReleaseTracked.m */,
-				752DEB2A14F17BC0009B70C4 /* Supporting Files */,
 				752DEB5B14F18335009B70C4 /* Beta.h */,
 				752DEB5C14F18335009B70C4 /* Beta.m */,
 				752DEB6114F198F3009B70C4 /* Gamma.h */,
 				752DEB6214F198F3009B70C4 /* Gamma.m */,
 				752DEB6414F1A7D3009B70C4 /* Alpha+Delta.h */,
 				752DEB6514F1A7D3009B70C4 /* Alpha+Delta.m */,
+				752DEB6714F1A978009B70C4 /* EpsilonDelegate.h */,
+				752DEB5E14F18851009B70C4 /* ReleaseTracked.h */,
+				752DEB5F14F18851009B70C4 /* ReleaseTracked.m */,
+				752DEB3514F17BC0009B70C4 /* MainStoryboard.storyboard */,
+				752DEB3214F17BC0009B70C4 /* AKNEP_AppDelegate.h */,
+				752DEB3314F17BC0009B70C4 /* AKNEP_AppDelegate.m */,
+				752DEB3814F17BC0009B70C4 /* AKNEP_ViewController.h */,
+				752DEB3914F17BC0009B70C4 /* AKNEP_ViewController.m */,
+				752DEB2A14F17BC0009B70C4 /* Supporting Files */,
 			);
 			path = AknEp;
 			sourceTree = "<group>";
@@ -461,6 +461,7 @@
 				752DEB5414F17BC0009B70C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		752DEB5514F17BC0009B70C4 /* Build configuration list for PBXNativeTarget "AknEpTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				752DEB5714F17BC0009B70C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
